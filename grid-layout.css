@@ -1,0 +1,39 @@
+
+body > h1 {
+    overflow: none;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 5px;
+}
+.grid-container > div {
+    padding: 20px;
+    font: 30px;
+    filter: drop-shadow(15px 5px 6px black);
+}
+h1 {
+    text-align: center;
+}
+.item1 {
+    grid-row-end: span 3;
+    float: left;
+    margin: 5px;
+}
+.item2 {
+    float: right;
+    margin: 5px;
+
+}
+.item3 {
+    float: right;
+    margin: 5px;
+
+}
+.item4 {
+    padding: 20px;
+    font: 30px;
+    filter: drop-shadow(30px);
+    text-align: center;
+    margin: 5px;
+}
